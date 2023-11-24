@@ -1,0 +1,22 @@
+Who is the current President of the United States?          1
+What is the formula for velocity?          2
+What is the chemical symbol for hydrogen?          2
+Name the first element in the periodic table.          2
+Who is the author of 'Romeo and Juliet'?          2
+What is the SI unit of electric current?          2
+Who is the current President of the United States?          2
+Explain the process of photosynthesis.          4
+Explain the concept of electric potential.          5
+Discuss the principles of supply chain management.          5
+Describe the structure of the Earth's atmosphere.          5
+Solve: ∫(2x + 3)dx          5
+Explain the principles of classical conditioning in psychology.          5
+Solve the system of equations: 2x + y = 8, 3x - 2y = 5          5
+Describe the role of neurotransmitters in the nervous system.          5
+Discuss the impact of social media on society.          5
+Describe the process of plate tectonics.          5
+Discuss the impact of industrialization on the environment.          5
+Solve: log₃(9) + log₃(27)          5
+Explain the concept of black holes in astrophysics.          8
+Analyze the security challenges in blockchain technology.          10
+Derive and explain Euler's formula in complex analysis.          10

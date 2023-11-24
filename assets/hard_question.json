@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Explain the concept of black holes in astrophysics.",
+    "subject": "Physics",
+    "topic": "Astrophysics",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the principles of quantum entanglement in quantum mechanics.",
+    "subject": "Physics",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the impact of enzyme kinetics on biochemical reactions.",
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Examine the Nash Equilibrium in game theory and its applications.",
+    "subject": "Economics",
+    "topic": "Game Theory",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Derive and explain Euler's formula in complex analysis.",
+    "subject": "Math",
+    "topic": "Complex Analysis",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Explore the applications of artificial intelligence in real-time scenarios.",
+    "subject": "Computer Science",
+    "topic": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the challenges and advancements in renewable energy technologies.",
+    "subject": "Environmental Science",
+    "topic": "Renewable Energy",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the role of mitochondria in cellular respiration.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Examine the principles of microeconometrics and its applications in economic research.",
+    "subject": "Economics",
+    "topic": "Microeconometrics",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the impact of climate change on global biodiversity.",
+    "subject": "Environmental Science",
+    "topic": "Climate Change",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the ethical implications of gene editing technologies.",
+    "subject": "Bioethics",
+    "topic": "Genetic Engineering",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Explain the mathematical formulation of general relativity in theoretical physics.",
+    "subject": "Physics",
+    "topic": "Theoretical Physics",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Explore the principles and challenges of building scalable distributed systems.",
+    "subject": "Computer Science",
+    "topic": "Distributed Systems",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the role of the World Trade Organization (WTO) in international trade.",
+    "subject": "Economics",
+    "topic": "International Trade",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the security challenges in blockchain technology.",
+    "subject": "Computer Science",
+    "topic": "Blockchain",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the applications and challenges of CRISPR-Cas9 in genetic engineering.",
+    "subject": "Biology",
+    "topic": "Genetic Engineering",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Explore the principles of chaos theory in mathematics and its real-world applications.",
+    "subject": "Math",
+    "topic": "Chaos Theory",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Examine the impact of human activities on marine ecosystems.",
+    "subject": "Environmental Science",
+    "topic": "Marine Ecology",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the challenges and future prospects of quantum computing.",
+    "subject": "Computer Science",
+    "topic": "Quantum Computing",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the economic implications of global pandemics on international trade.",
+    "subject": "Economics",
+    "topic": "Global Pandemics",
+    "difficulty": "Hard",
+    "marks": 10
+  }
+]

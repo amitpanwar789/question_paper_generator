@@ -1,0 +1,205 @@
+[
+  {
+    "question": "Explain the process of photosynthesis.",
+    "subject": "Biology",
+    "topic": "Botany",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve: 3x^2 + 2x - 7 = 0",
+    "subject": "Math",
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the impact of globalization on the economy.",
+    "subject": "Economics",
+    "topic": "Globalization",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Describe the structure of the Earth's atmosphere.",
+    "subject": "Geography",
+    "topic": "Atmosphere",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the concept of electric potential.",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Compare and contrast mitosis and meiosis.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve the system of equations: 2x + y = 8, 3x - 2y = 5",
+    "subject": "Math",
+    "topic": "Systems of Equations",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the principles of supply chain management.",
+    "subject": "Business Studies",
+    "topic": "Supply Chain",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the concept of entropy in thermodynamics.",
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "What are the causes and effects of deforestation?",
+    "subject": "Environmental Science",
+    "topic": "Deforestation",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve: ∫(2x + 3)dx",
+    "subject": "Math",
+    "topic": "Calculus",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the role of enzymes in biological systems.",
+    "subject": "Biology",
+    "topic": "Biochemistry",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the concept of opportunity cost in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Describe the process of plate tectonics.",
+    "subject": "Geology",
+    "topic": "Plate Tectonics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the impact of climate change on biodiversity.",
+    "subject": "Environmental Science",
+    "topic": "Climate Change",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve: log₃(9) + log₃(27)",
+    "subject": "Math",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the principles of classical conditioning in psychology.",
+    "subject": "Psychology",
+    "topic": "Behaviorism",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the factors influencing consumer buying behavior.",
+    "subject": "Marketing",
+    "topic": "Consumer Behavior",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the concept of magnetic fields in physics.",
+    "subject": "Physics",
+    "topic": "Magnetism",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve: √(x² + 9) = 3",
+    "subject": "Math",
+    "topic": "Equations",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the impact of social media on society.",
+    "subject": "Sociology",
+    "topic": "Media Influence",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the process of cellular respiration.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the economic implications of inflation.",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Describe the role of neurotransmitters in the nervous system.",
+    "subject": "Neuroscience",
+    "topic": "Neurotransmission",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the concept of elasticity in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the impact of industrialization on the environment.",
+    "subject": "Environmental Science",
+    "topic": "Industrialization",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve: tan(π/4)",
+    "subject": "Math",
+    "topic": "Trigonometry",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Explain the principles of human resource management.",
+    "subject": "Management",
+    "topic": "HRM",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the structure and function of carbohydrates in biochemistry.",
+    "subject": "Biochemistry",
+    "topic": "Carbohydrates",
+    "difficulty": "Medium",
+    "marks": 5
+  }
+]

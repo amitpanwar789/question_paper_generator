@@ -1,0 +1,339 @@
+[
+  {
+    "question": "Who is the current President of the United States?",
+    "subject": "General Knowledge",
+    "topic": "Politics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 6 + 9",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+
+  {
+    "question": "What is the capital of Japan?",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define force in physics.",
+    "subject": "Physics",
+    "topic": "Force",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 5 + 3",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define opportunity cost in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "subject": "Literature",
+    "topic": "American Literature",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the SI unit of temperature?",
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the first element in the periodic table.",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 10 ÷ 2",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define inflation in economics.",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the formula for the area of a rectangle?",
+    "subject": "Math",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the largest ocean on Earth.",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the speed of light?",
+    "subject": "Physics",
+    "topic": "Waves",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "subject": "Chemistry",
+    "topic": "Chemical Formulas",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 3²",
+    "subject": "Math",
+    "topic": "Exponents",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define scarcity in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who is known as the 'Father of Physics'?",
+    "subject": "Physics",
+    "topic": "Physics Pioneers",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical symbol for hydrogen?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 6 - 4",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define supply in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the formula for the circumference of a circle?",
+    "subject": "Math",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the currency of Germany.",
+    "subject": "General Knowledge",
+    "topic": "Currency",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "subject": "General Knowledge",
+    "topic": "Medical Science",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: √9",
+    "subject": "Math",
+    "topic": "Roots",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the law of supply and demand?",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define work in physics.",
+    "subject": "Physics",
+    "topic": "Work and Energy",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who proposed the atomic theory?",
+    "subject": "Chemistry",
+    "topic": "Atomic Theory",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 7 + 5",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the law of diminishing marginal returns?",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the largest planet in our solar system.",
+    "subject": "General Knowledge",
+    "topic": "Astronomy",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the formula for velocity?",
+    "subject": "Physics",
+    "topic": "Motion",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical symbol for carbon?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 8 ÷ 2",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define elasticity in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who is the author of 'Romeo and Juliet'?",
+    "subject": "Literature",
+    "topic": "Shakespeare",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the smallest bone in the human body.",
+    "subject": "General Knowledge",
+    "topic": "Human Anatomy",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the formula for acceleration?",
+    "subject": "Physics",
+    "topic": "Motion",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 4 + 6",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define market equilibrium in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Who wrote 'Macbeth'?",
+    "subject": "Literature",
+    "topic": "Shakespeare",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "What is the SI unit of electric current?",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Name the chemical element with the symbol 'Fe'.",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Solve: 9 - 3",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "marks": 2
+  },
+  {
+    "question": "Define monopoly in economics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Easy",
+    "marks": 2
+  }
+]
