@@ -1,85 +1,113 @@
-const easy_questions = require("./assets/easy_question");
-const medium_questions = require("./assets/medium_question");
-const hard_questions = require("./assets/hard_question");
+const easyQuestions = require("./assets/easy_question");
+const mediumQuestions = require("./assets/medium_question");
+const hardQuestions = require("./assets/hard_question");
 const fs = require("fs");
 
 class QuestionPaperGenerator {
   constructor() {
-    this.easy_questions = easy_questions;
-    this.medium_questions = medium_questions;
-    this.hard_questions = hard_questions;
-    this.question_paper = [];
+    this.easyQuestions = easyQuestions;
+    this.mediumQuestions = mediumQuestions;
+    this.hardQuestions = hardQuestions;
+    this.questionPaper = [];
+    this.totalMarks = 100;
   }
 
-  add_easy_questions(total_marks) {
-    if(total_marks === 0) return;
-    if(total_marks%2 !== 0){
-        const element = easy_questions[0];
-        this.question_paper.push({...element,marks:1});
-        total_marks -= total_marks%2;
+  getRandomElement(questionPool) {
+    const randomIndex = Math.floor(Math.random() * questionPool.length);
+    return questionPool[randomIndex];
+  }
+
+  addEasyQuestions(percentageDist) {
+    let easyMarks = (percentageDist * this.totalMarks) / 100;
+    let extraForRoundOff = Math.ceil(easyMarks) - easyMarks;
+    easyMarks += extraForRoundOff;
+
+    if (easyMarks === 0) return;
+
+    if (easyMarks % 2 !== 0) {
+      const element = easyQuestions[0];
+      this.questionPaper.push({ ...element, marks: 1 });
+      easyMarks -= easyMarks % 2;
     }
-    while (total_marks) {
-      const randomIndex = Math.floor(Math.random() * easy_questions.length);
-      const element = easy_questions[randomIndex];
-      if (!this.question_paper.includes(element)) {
-        this.question_paper.push(element);
-        total_marks -= 2;
+
+    while (easyMarks) {
+      const element = this.getRandomElement(easyQuestions);
+      if (!this.questionPaper.includes(element)) {
+        this.questionPaper.push(element);
+        easyMarks -= 2;
       }
     }
+
+    return extraForRoundOff;
   }
-  add_hard_questions(total_marks) {
-    if(total_marks === 0) return;
-    if(total_marks%10 !== 0){
-        const element = hard_questions[0];
-        this.question_paper.push({...element,marks:total_marks%10});
-        total_marks -= total_marks%10;
+
+  addMediumQuestions(percentageDist) {
+    let mediumMarks = (percentageDist * this.totalMarks) / 100;
+    let extraForRoundOff = Math.ceil(mediumMarks) - mediumMarks;
+    mediumMarks += extraForRoundOff;
+
+    if (mediumMarks === 0) return;
+
+    if (mediumMarks % 5 !== 0) {
+      const element = mediumQuestions[0];
+      this.questionPaper.push({ ...element, marks: mediumMarks % 5 });
+      mediumMarks -= mediumMarks % 5;
     }
-    while (total_marks) {
-      const randomIndex = Math.floor(Math.random() * hard_questions.length);
-      const element = hard_questions[randomIndex];
-      if (!this.question_paper.includes(element)) {
-        this.question_paper.push(element);
-        total_marks -= 10;
+
+    while (mediumMarks) {
+      const element = this.getRandomElement(mediumQuestions);
+      if (!this.questionPaper.includes(element)) {
+        this.questionPaper.push(element);
+        mediumMarks -= 5;
       }
     }
+
+    return extraForRoundOff;
   }
-  add_medium_questions(total_marks) {
-    if(total_marks === 0) return;
-    if(total_marks%5 !== 0){
-        const element = medium_questions[0];
-        this.question_paper.push({...element,marks:total_marks%5});
-        total_marks -= total_marks%5;
+
+  addHardQuestions(percentageDist, extraForRoundOff) {
+    let hardMarks = (percentageDist * this.totalMarks) / 100;
+    hardMarks -= extraForRoundOff;
+
+    if (hardMarks === 0) return;
+
+    if (hardMarks % 10 !== 0) {
+      const element = hardQuestions[0];
+      this.questionPaper.push({ ...element, marks: hardMarks % 10 });
+      hardMarks -= hardMarks % 10;
     }
-    while (total_marks) {
-      const randomIndex = Math.floor(Math.random() * medium_questions.length);
-      const element = medium_questions[randomIndex];
-      if (!this.question_paper.includes(element)) {
-        this.question_paper.push(element);
-        total_marks -= 5;
+
+    while (hardMarks) {
+      const element = this.getRandomElement(hardQuestions);
+      if (!this.questionPaper.includes(element)) {
+        this.questionPaper.push(element);
+        hardMarks -= 10;
       }
     }
   }
 
-  generate_paper() {
-    const question_paper_ready = this.question_paper.map((element) => {
+  generatePaper() {
+    const questionPaperReady = this.questionPaper.map((element) => {
       return element.question + "          " + element.marks;
     });
-    fs.writeFile(
-      "Question Paper.txt",
-      question_paper_ready.join("\n"),
-      (err) => {
-        if (err) {
-          console.log("\x1b[31mSomething went wrong.\x1b[0m Please try again!");
-        }
+
+    fs.writeFile("Question Paper.txt", questionPaperReady.join("\n"), (err) => {
+      if (err) {
+        console.log("\x1b[31mSomething went wrong.\x1b[0m Please try again!");
       }
-    );
+    });
   }
 
-  generateQuestionPaper(difficulty_distribution) {
-    this.add_easy_questions(Number(difficulty_distribution[0]));
-    this.add_medium_questions(Number(difficulty_distribution[1]));
-    this.add_hard_questions(Number(difficulty_distribution[2]));
-    this.generate_paper();
+  generateQuestionPaper(difficultyDistribution) {
+    // difficultyDistribution[3] is totalMarks of questionPaper
+    if (difficultyDistribution[3]) this.totalMarks = difficultyDistribution[3];
+
+    let extraForRoundOff = 0;
+    extraForRoundOff = this.addEasyQuestions(difficultyDistribution[0]);
+    extraForRoundOff += this.addMediumQuestions(difficultyDistribution[1]);
+    this.addHardQuestions(difficultyDistribution[2], extraForRoundOff);
+
+    this.generatePaper();
   }
 }
 
