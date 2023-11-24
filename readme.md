@@ -24,7 +24,7 @@ The application is designed to generate question papers by selecting questions f
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/amitpanwar/question-paper-generator.git
+git clone https://github.com/amitpanwar/question_paper_generator.git
 
 cd question_paper_generator
 
